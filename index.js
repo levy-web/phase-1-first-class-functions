@@ -1,14 +1,14 @@
 function receivesAFunction(callback) {
     callback();
-    return;
 }
 
 function returnsANamedFunction() {
-    return function namedFn() {
-      console.log(`a named function`);
+    
+    return function namedFunction() {      
     };
+    
 }
 
 function returnsAnAnonymousFunction() {
-    return () => console.log(`anonymous function`);
+    return () => x+1;
 }
