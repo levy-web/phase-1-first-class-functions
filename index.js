@@ -3,9 +3,18 @@ function receivesAFunction(callback) {
 }
 
 function returnsANamedFunction() {
+
+
     
-    return function namedFunction() {      
-    };
+    var fn = function namedFunction(){
+        
+    }
+    return fn;
+
+
+    
+    //return function namedFunction() {      
+    //};
     
 }
 
